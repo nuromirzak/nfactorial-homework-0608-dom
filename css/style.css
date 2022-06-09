@@ -1,0 +1,49 @@
+#board {
+    background-image: url("../icons/drake.png");
+    background-size: 5rem;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+video {
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+#controls {
+    width: 25%;
+    height: 25%;
+    /* background-color: gold; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    position: fixed;
+}
+
+.button {
+    width: 20%;
+    height: 45%;
+    /* background-color: blue; */
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+}
+
+#progress_bar {
+    width: 100%;
+    height: 10%;
+    /* background-color: green; */
+    align-self: flex-end;
+    padding: 0.5rem;
+}
+
+.button img {
+    height: 80%;
+    width: 80%;
+}
+
+input[type=range] {
+    width: 100%;
+}
